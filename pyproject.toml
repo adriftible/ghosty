@@ -15,6 +15,10 @@ bcrypt = "^4.0.1"
 [tool.poetry.group.docs.dependencies]
 mkdocs-material = "^9.4.7"
 
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
